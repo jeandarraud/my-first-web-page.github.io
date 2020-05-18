@@ -1,0 +1,106 @@
+body{
+  color: black;
+  font-family: gill sans;
+  text-align: center;
+}
+
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #9B0021;
+}
+
+.links {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.link {
+  margin: 10px 30px;
+  color: #9F3442;
+}
+
+.link:hover {
+  color: #458D2E;
+}
+
+.line-transparent {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.line-light {
+  height: 5px;
+  width: 20%;
+  background: #980121;
+}
+
+.line-medium {
+  height: 5px;
+  width: 30%;
+  background: #E70032;
+}
+
+.line-hard {
+  height: 5px;
+  width: 50%;
+  background: #FF0037;
+}
+
+a{
+	text-align: center;
+	text-decoration: none; 
+}
+
+
+
+.énergy{
+ width: 250px;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 8%;
+  box-shadow: 5px 5px 10px grey;
+}
+
+.photo{
+	width: 100%;
+	height :200px;
+	object-fit: cover;
+	
+}
+
+.fond1{
+  text-align: center;
+	font-size: 20px;
+	background-color: red;
+	width: 50%;
+	 height :200px;
+	 
+}
+
+.fond{
+	background-color: #9B0021;
+}
+
+.bouton{
+  display: inline-block;
+  color: white;
+  background: red;
+  padding: 7px;
+  border-radius: 5px;
+  box-shadow: 0px 5px 5px grey;
+ 
+}
+
+
+.liste{
+  display: flex;
+}
+
+.margin{
+  margin: 20px;
+}
